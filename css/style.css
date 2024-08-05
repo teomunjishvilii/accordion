@@ -1,0 +1,88 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 40px;
+}
+
+.accordion_wrapper {
+  max-width: 750px;
+  width: 100%;
+  margin: 100px auto 0 auto;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+
+.accordion_wrapper .accordion_inside_div {
+  margin: 23px 25px;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+
+.accordion_wrapper .accordion_inside_div .accordion_item {
+  /* padding: 20px; */
+}
+
+.accordion_wrapper .accordion_inside_div .accordion_item .accordion_header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.accordion_wrapper
+  .accordion_inside_div
+  .accordion_item
+  .accordion_header.clicked {
+  background-color: #d3d3d3;
+}
+
+.accordion_wrapper
+  .accordion_inside_div
+  .accordion_item
+  .accordion_header
+  .arrow {
+  color: grey;
+}
+
+.accordion_wrapper .accordion_inside_div .accordion_item .accordion_body {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-out;
+}
+
+/* .accordion_wrapper
+  .accordion_inside_div
+  .accordion_item
+  .accordion_body.active {
+  height: auto;
+} */
+
+.accordion_wrapper .accordion_inside_div .accordion_item .accordion_body p {
+  line-height: 25px;
+  padding: 20px;
+}
+
+.accordion_wrapper
+  .accordion_inside_div
+  .accordion_item
+  .accordion_body
+  p
+  span {
+  font-weight: bold;
+}
+
+.accordion_wrapper
+  .accordion_inside_div
+  .accordion_item
+  .accordion_body
+  p
+  code {
+  color: #d63384;
+}
